@@ -1,0 +1,25 @@
+import pymysql
+import subprocess
+
+# 连接weed数据库
+db = pymysql.connect(host="localhost", user="root", password="123456", database="weed")
+cursor = db.cursor()
+
+# 查询视频流地址
+sql = "SELECT stream FROM streams" # 查询所有的视频流
+cursor.execute(sql)
+results = cursor.fetchall()
+
+# 关闭数据库连接
+db.close()
+
+# 为每个视频流创建一个子进程来调用YOLOv5的detect.py脚本
+processes = []
+for result in results:
+    stream = result[0] # 得到视频流地址
+    p = subprocess.Popen(["python", "detect.py", "--source", stream]) # 创建一个子进程
+    processes.append(p) # 将子进程添加到列表中
+
+# 等待所有的子进程完成
+for p in processes:
+    p.wait()

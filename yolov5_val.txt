@@ -1,0 +1,12 @@
+C:\Users\Administrator\Desktop\yolov5-weed\yolov5-5.0\datasets/weed/JPEGImages/0bfaf7ac2e906a34bbed4e7231c0e812.jpeg
+C:\Users\Administrator\Desktop\yolov5-weed\yolov5-5.0\datasets/weed/JPEGImages/10ecd83dc28b48cbb886870f30cb3bb0.jpg
+C:\Users\Administrator\Desktop\yolov5-weed\yolov5-5.0\datasets/weed/JPEGImages/1cb39f6038d7b351c779dc37293d0076.jpeg
+C:\Users\Administrator\Desktop\yolov5-weed\yolov5-5.0\datasets/weed/JPEGImages/2ca21acb322db8954f85d36e372676e1.jpeg
+C:\Users\Administrator\Desktop\yolov5-weed\yolov5-5.0\datasets/weed/JPEGImages/319f7ec54a8ade113fb0957d8dcf89d9+1.jpeg
+C:\Users\Administrator\Desktop\yolov5-weed\yolov5-5.0\datasets/weed/JPEGImages/3d2536de4530d9474d7b3edd73858ba5.jpeg
+C:\Users\Administrator\Desktop\yolov5-weed\yolov5-5.0\datasets/weed/JPEGImages/8572a6fa0959b9904f73de9bfbbd2808.jpeg
+C:\Users\Administrator\Desktop\yolov5-weed\yolov5-5.0\datasets/weed/JPEGImages/a7446acdeaa33ab1d84051ded9e72e63.png
+C:\Users\Administrator\Desktop\yolov5-weed\yolov5-5.0\datasets/weed/JPEGImages/c1f31ef3c5056ebcb5f086d84e5be1fa.jpeg
+C:\Users\Administrator\Desktop\yolov5-weed\yolov5-5.0\datasets/weed/JPEGImages/c4b4fc8ccedb257c9c9a97096d1b1f9d (1).jpeg
+C:\Users\Administrator\Desktop\yolov5-weed\yolov5-5.0\datasets/weed/JPEGImages/d55da73e6c378e34e52afa40604832e5.jpeg
+C:\Users\Administrator\Desktop\yolov5-weed\yolov5-5.0\datasets/weed/JPEGImages/e3755745636e2c411a9ac1ef26ca0602.jpeg

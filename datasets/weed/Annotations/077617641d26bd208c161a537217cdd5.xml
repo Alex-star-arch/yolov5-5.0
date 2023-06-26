@@ -1,0 +1,26 @@
+<annotation>
+	<folder>JPEGImage</folder>
+	<filename>077617641d26bd208c161a537217cdd5.jpg</filename>
+	<path>C:\Users\szc\Desktop\weed\JPEGImage\077617641d26bd208c161a537217cdd5.jpg</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>1024</width>
+		<height>768</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>weed</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>132</xmin>
+			<ymin>56</ymin>
+			<xmax>794</xmax>
+			<ymax>703</ymax>
+		</bndbox>
+	</object>
+</annotation>

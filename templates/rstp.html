@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>RTSP Player</title>
+    <script src="https://cdn.jsdelivr.net/npm/rtsp-player/dist/rtsp-player.min.js"></script>
+</head>
+<body>
+    <div id="video-container"></div>
+    <script>
+        const player = new RTSP.Player({
+            // RTSP 视频流的 URL
+            url: 'rtsp://wowzaec2demo.streamlock.net/vod/mp4:BigBuckBunny_115k.mp4',
+            // 视频播放器的容器
+            container: document.getElementById('video-container'),
+            // 可选参数，视频宽度
+            width: 640,
+            // 可选参数，视频高度
+            height: 360,
+            // 可选参数，是否循环播放
+            loop: true,
+            // 可选参数，是否自动播放
+            autoplay: true,
+            // 可选参数，视频控制条显示方式
+            controls: 'auto'
+        });
+    </script>
+</body>
+</html>
