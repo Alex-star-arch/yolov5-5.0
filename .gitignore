@@ -1,13 +1,7 @@
 # Repo-specific GitIgnore ----------------------------------------------------------------------------------------------
-*.jpg
-*.jpeg
-*.png
 *.bmp
-*.tif
 *.tiff
 *.heic
-*.JPG
-*.JPEG
 *.PNG
 *.BMP
 *.TIF
@@ -17,14 +11,12 @@
 *.mov
 *.MOV
 *.avi
-*.data
-*.json
+
 
 *.cfg
 !cfg/yolov3*.cfg
 
 storage.googleapis.com
-data/*
 !data/images/zidane.jpg
 !data/images/bus.jpg
 !data/coco.names
@@ -49,14 +41,6 @@ VOC/
 *.mat
 !targets*.mat
 
-# Neural Network weights -----------------------------------------------------------------------------------------------
-*.weights
-*.pt
-*.onnx
-*.mlmodel
-*.torchscript
-darknet53.conv.74
-yolov3-tiny.conv.15
 
 # GitHub Python GitIgnore ----------------------------------------------------------------------------------------------
 # Byte-compiled / optimized / DLL files
@@ -199,7 +183,7 @@ Temporary Items
 # Reference: https://intellij-support.jetbrains.com/hc/en-us/articles/206544839
 
 # User-specific stuff:
-.idea/*
+
 .idea/**/workspace.xml
 .idea/**/tasks.xml
 .idea/dictionaries
@@ -248,4 +232,5 @@ com_crashlytics_export_strings.xml
 crashlytics.properties
 crashlytics-build.properties
 fabric.properties
-/runs/
+
+
